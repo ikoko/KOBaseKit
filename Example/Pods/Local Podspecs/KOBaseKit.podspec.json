@@ -1,0 +1,22 @@
+{
+  "name": "KOBaseKit",
+  "version": "0.1.0",
+  "summary": "A short description of KOBaseKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ikoko/KOBaseKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ikoko": "youngster.china@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ikoko/KOBaseKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KOBaseKit/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KOBaseKit (0.1.0)
+
+DEPENDENCIES:
+  - KOBaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  KOBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KOBaseKit: 648443aa7ef2917ca4a8f94a938dfdfacdb7e3e0
+
+PODFILE CHECKSUM: 8c8b4f270a31c4330f1a13724bb8a6545c592f25
+
+COCOAPODS: 1.10.1

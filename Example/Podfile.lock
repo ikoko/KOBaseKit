@@ -1,15 +1,70 @@
 PODS:
-  - KOBaseKit (0.1.0)
+  - Hue (5.0.0)
+  - KOBaseKit (0.1.0):
+    - Hue
+    - R.swift
+    - RxSwift
+    - SnapKit
+    - SwiftLint
+    - SwiftTheme
+    - SwiftyUserDefaults
+    - TextAttributes
+    - URLNavigator
+    - XCGLogger (~> 7.0.1)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - R.swift (5.4.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - RxSwift (6.2.0)
+  - SnapKit (4.2.0)
+  - SwiftLint (0.43.1)
+  - SwiftTheme (0.6.0)
+  - SwiftyUserDefaults (5.3.0)
+  - TextAttributes (2.0.2)
+  - URLNavigator (2.3.0)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
 
 DEPENDENCIES:
   - KOBaseKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Hue
+    - ObjcExceptionBridging
+    - R.swift
+    - R.swift.Library
+    - RxSwift
+    - SnapKit
+    - SwiftLint
+    - SwiftTheme
+    - SwiftyUserDefaults
+    - TextAttributes
+    - URLNavigator
+    - XCGLogger
 
 EXTERNAL SOURCES:
   KOBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KOBaseKit: 648443aa7ef2917ca4a8f94a938dfdfacdb7e3e0
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  KOBaseKit: 6c95cea733a1531eb9fd49e54341a16bbda6bbb8
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  R.swift: c533450b0f7dc494e0993f5f1a1db925d84c3006
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  SwiftTheme: 50c3b3d38bdee43212af1f4ec0fb95dec550b2be
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
+  TextAttributes: 89905fb52c36de587010f335bd4071463d9c6d9b
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
 PODFILE CHECKSUM: 8c8b4f270a31c4330f1a13724bb8a6545c592f25
 

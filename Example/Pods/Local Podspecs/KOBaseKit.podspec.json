@@ -1,7 +1,7 @@
 {
   "name": "KOBaseKit",
   "version": "0.1.0",
-  "summary": "A short description of KOBaseKit.",
+  "summary": "KOBaseKit 迅速继承基础库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ikoko/KOBaseKit",
   "license": {
@@ -16,7 +16,39 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "KOBaseKit/Classes/**/*"
+  "source_files": "KOBaseKit/Classes/**/*",
+  "dependencies": {
+    "SwiftLint": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "SwiftTheme": [
+
+    ],
+    "SwiftyUserDefaults": [
+
+    ],
+    "URLNavigator": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "Hue": [
+
+    ],
+    "TextAttributes": [
+
+    ],
+    "R.swift": [
+
+    ],
+    "XCGLogger": [
+      "~> 7.0.1"
+    ]
+  }
 }

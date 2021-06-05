@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KOBaseKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KOBaseKit.'
+  s.summary          = 'KOBaseKit 快速集成基础库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ikoko/KOBaseKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'KOBaseKit/Classes/**/*'
   
@@ -38,5 +38,24 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'SwiftLint'
+  s.dependency 'RxSwift'
+  # 主题换肤
+  s.dependency 'SwiftTheme'
+  # 本地化
+  s.dependency 'SwiftyUserDefaults'
+  # 路由
+  s.dependency 'URLNavigator'
+  # 自动布局
+  s.dependency 'SnapKit'
+  # 颜色库
+  s.dependency 'Hue'
+  # 富文本字符串
+  s.dependency 'TextAttributes'
+  # 资源读取
+  s.dependency 'R.swift'
+  # Log
+  s.dependency 'XCGLogger', '~> 7.0.1'
+  
 end

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KOBaseKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

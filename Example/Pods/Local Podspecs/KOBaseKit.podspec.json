@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "KOBaseKit/Classes/**/*",
+  "source_files": "Source/**/*",
   "dependencies": {
     "SwiftLint": [
 

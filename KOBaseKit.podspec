@@ -53,8 +53,6 @@ TODO: Add long description of the pod here.
   s.dependency 'Hue'
   # 富文本字符串
   s.dependency 'TextAttributes'
-  # 资源读取
-  s.dependency 'R.swift'
   # Log
   s.dependency 'XCGLogger', '~> 7.0.1'
   

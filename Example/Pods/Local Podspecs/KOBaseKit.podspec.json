@@ -1,7 +1,7 @@
 {
   "name": "KOBaseKit",
   "version": "0.1.0",
-  "summary": "KOBaseKit 迅速继承基础库",
+  "summary": "KOBaseKit 快速集成基础库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ikoko/KOBaseKit",
   "license": {
@@ -42,9 +42,6 @@
 
     ],
     "TextAttributes": [
-
-    ],
-    "R.swift": [
 
     ],
     "XCGLogger": [
